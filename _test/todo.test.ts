@@ -1,4 +1,4 @@
-import { taskList } from '../todo';
+import { taskList } from '../src/todo';
 
 describe('taskList', () => {
     let myTaskList: taskList;
