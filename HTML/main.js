@@ -30,7 +30,7 @@ function main() {
     let choice = document.getElementById("options").value;
     switch (choice) {
         case "1":
-            let task = prompt("Type the task you want to add", "Do Laundry");
+            let task = prompt("Type the task you want to add", "Do homework");
             let chore = addTask(task);
             tasks.push(chore);
             console.table(tasks)
