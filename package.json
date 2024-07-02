@@ -1,4 +1,12 @@
 {
+  "name": "tasklist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+  "build": "tsc"}
+  ,
+
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/readline-sync": "^1.4.8",
